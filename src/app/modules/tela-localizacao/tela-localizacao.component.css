@@ -1,0 +1,58 @@
+@media (min-width: 300px) {
+    .form-row {
+        margin: 30px;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control {
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #707070;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #707070;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+
+    .footer-edit {
+        margin-top: 148px;
+    }
+
+    .senha-edit {
+        margin-top: 20px;
+    }
+
+    .btn{
+        margin: 20px 77px;
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+     
+  .btn-outline {
+    color: #45D1C1;
+    border: 1px solid;
+    border-color: #45D1C1;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+   color: #fff;
+   border-color: #fff;
+   background-color: #45D1C1;
+  }
+}
+
+
+  @media (min-width: 768px) {
+
+  }

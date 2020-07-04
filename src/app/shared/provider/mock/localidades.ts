@@ -40,10 +40,3 @@ export const listLocalidades = [
         "estado": "Pernambuco"
     }
 ]
-
-//   <div class="col-2">
-//                 <span>Estado:</span>
-//                 <select class="form-control" formControlName="estado">
-//                   <option *ngFor="let item of listLocalidades" [value]="item.cod">{{ item.estado }}</option>
-//                 </select>
-//             </div>
