@@ -1,1 +1,40 @@
-<p>tela-login works!</p>
+<section>
+    <div class="header">
+        <img src="../../../assets/svg/titulo.svg" alt="">
+    </div>
+</section>
+
+<section>
+    <div>
+        <img class="logo1" src="../../../assets/svg/arvore3.png" alt="">
+        <img class="logo" src="../../../assets/svg/logo.svg" alt="">
+    </div>
+</section>
+
+<section>
+    <form [formGroup]="formulario">
+        <div class="form-row">
+            <div class="container">
+                <div class="form-row">
+                    <div>
+                        <div class="col-12">
+                            <input type="email" class="form-control" formControlName="email" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="senha-edit">
+                        <div class="col-12">
+                            <input type="password" class="form-control" formControlName="senha" placeholder="Senha">
+                        </div>
+                    </div>
+
+                    <div>
+                        <button [routerLink]='["../tela-principal"]' class="btn btn-outline" [disabled]="disableButton()">
+                            <span>Logar</span></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</section>

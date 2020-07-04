@@ -13,7 +13,7 @@ import { TelaInicialComponent } from './modules/tela-inicial/tela-inicial.compon
 const routes: Routes = [
     {
         path: '',
-        component: TelaPrincipalComponent,
+        component: TelaLoginComponent,
     },
     {
         path: 'tela-login',

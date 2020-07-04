@@ -12,6 +12,7 @@ import { TelaGamificationComponent } from './modules/tela-gamification/tela-gami
 import { TelaLocalizacaoComponent } from './modules/tela-localizacao/tela-localizacao.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from '../app/shared/shared.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -30,7 +31,8 @@ import { SharedModule } from '../app/shared/shared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
