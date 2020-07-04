@@ -99,7 +99,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "tsconfig.app.json",  
+              "tsconfig.app.json",
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
@@ -121,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "conexao-arvore"
+    }
+  },
+  "defaultProject": "conexao-arvore",
+  "cli": {
+    "analytics": "3011a304-6a4e-43ac-a718-d67af1b1791a"
+  }
 }

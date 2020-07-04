@@ -1,0 +1,24 @@
+.cards_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card_pagina {
+  width: 130px;
+  height: 130px;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 #333;
+  margin: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_pagina-icone {
+  width: 50px;
+  height: 50px;
+}
