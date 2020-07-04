@@ -1,0 +1,13 @@
+@media (min-width: 300px) {
+    footer {
+        background-color: #45D1C1;
+        width: 375px;
+        height: 33px;
+    }
+    
+  }
+
+
+  @media (min-width: 768px) {
+
+  }

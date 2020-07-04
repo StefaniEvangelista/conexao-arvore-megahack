@@ -1,0 +1,35 @@
+@media (min-width: 300px) {
+    span {
+        font-weight: 700;
+        font-size: 17px; 
+        border: 1px solid #707070;
+        border-radius: 5px;
+        height: 14vw;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn{
+        margin: 20px 115px;
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+     
+  .btn-outline {
+    color: #45D1C1;
+    border: 1px solid;
+    border-color: #45D1C1;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+   color: #fff;
+   border-color: #fff;
+   background-color: #45D1C1;
+ }
+ 
+}
