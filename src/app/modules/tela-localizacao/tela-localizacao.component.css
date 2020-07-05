@@ -1,3 +1,10 @@
+.section_tela-localizacao {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media (min-width: 300px) {
     .form-row {
         margin: 30px;
@@ -23,34 +30,88 @@
     .input-edit {
         margin-top: 20px;
     }
-
     .btn{
-        display: flex;  
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-        padding: 15px 30px;
+      margin: 19px 49px;
+      font-size: 16px;
+      padding: 15px 30px;
     }
      
+    .btn-outline {
+      color: #45D1C1;
+      border: 1px solid;
+      border-color: #45D1C1;
+      display: flex;  
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .btn-outline:hover, .btn-outline:focus {
+      color: #fff;
+      border-color: #fff;
+      background-color: #45D1C1;
+    }
+
+    img {
+      margin: 0px 93px;
+    }
+}
+
+@media (min-width: 360px) {
+  .input-edit {
+    margin-top: 30px;
+}
+
+  .btn{
+    margin: 35px 70px;
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+   
   .btn-outline {
     color: #45D1C1;
     border: 1px solid;
     border-color: #45D1C1;
-  }
-  
-  
-  .btn-outline:hover, .btn-outline:focus {
-   color: #fff;
-   border-color: #fff;
-   background-color: #45D1C1;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
   }
 
-  img {
-    margin: 0px 93px;
+
+  .btn-outline:hover, .btn-outline:focus {
+    color: #fff;
+    border-color: #fff;
+    background-color: #45D1C1;
   }
+
 }
 
 
-  @media (min-width: 768px) {
+  @media (min-width: 375px) {
+    .input-edit {
+      margin-top: 30px;
+  }
+
+    .btn{
+      margin: 70px 75px;
+      font-size: 16px;
+      padding: 15px 30px;
+    }
+     
+    .btn-outline {
+      color: #45D1C1;
+      border: 1px solid;
+      border-color: #45D1C1;
+      display: flex;  
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .btn-outline:hover, .btn-outline:focus {
+      color: #fff;
+      border-color: #fff;
+      background-color: #45D1C1;
+    }
 
   }
