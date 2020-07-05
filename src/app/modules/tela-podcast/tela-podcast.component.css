@@ -1,0 +1,116 @@
+.tela_inicial-busca {
+  position: relative;
+}
+
+.tela_inicial-busca img {
+  position: absolute;
+  top: 23px;
+  left: 20px;
+}
+
+.tela_inicial-busca-input {
+  border: 1px solid #707070;
+  padding: 10px 10px 10px 50px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 20px 15px;
+  display: block;
+  color:#783F04
+}
+
+.tela_inicial-busca-input::placeholder {
+  color:#783F04
+}
+
+.titulo_container {
+  color: #a87dd1ff;
+  font-weight: 700;
+  margin: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titulo_container img {
+  height: 75px;
+  margin-left: 10px;
+}
+
+.preFooter_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.arrow_left {
+  height: 90px;
+}
+
+.botoes_amigos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px 30px 15px;
+}
+
+.botoes_amigos button {
+  background: transparent;
+  border: 1px solid;
+  color: #a87dd1ff;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #707070;
+}
+
+.container_podcasts {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.podcast {
+  height: 43px;
+  width: 170px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.podcast.podcast1 {
+  background-image: url('../../../assets/podcast1.png');
+}
+.podcast.podcast2 {
+  background-image: url('../../../assets/podcast2.png');
+}
+.podcast.podcast3 {
+  background-image: url('../../../assets/podcast3.png');
+}
+.podcast.podcast4 {
+  background-image: url('../../../assets/podcast4.png');
+}
+.podcast.podcast5 {
+  background-image: url('../../../assets/podcast5.png');
+}
+.podcast.podcast6 {
+  background-image: url('../../../assets/podcast6.png');
+}
+
+@media (max-width:320px) {
+  .container_podcasts {
+    justify-content: center;
+  }
+}
+
+@media (min-width:768px) {
+  .botoes_amigos {
+    justify-content: center;
+  }
+  .container_podcasts {
+    justify-content: center;
+  }
+}
+
+
+
