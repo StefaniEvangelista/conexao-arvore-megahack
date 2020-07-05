@@ -25,7 +25,7 @@
     <p>Podcast</p>
   </div>
   <div class="card_pagina">
-    <img class="card_pagina-icone" src="../../../assets/ranking.png" alt="Ícone Ranking">
+    <img class="card_pagina-icone" [routerLink]='["../tela-ranking"]' src="../../../assets/ranking.png" alt="Ícone Ranking">
     <p>Ranking</p>
   </div>
   <div class="card_pagina">
@@ -33,15 +33,10 @@
     <p>Tags</p>
   </div>
   <div class="card_pagina">
-    <img class="card_pagina-icone" [routerLink]='["../ultimos-vistos"]' src="../../../assets/ultimos-lidos.png" alt="Ícone Ultimos lidos">
+    <img class="card_pagina-icone" [routerLink]='["../tela-ultimos-lidos"]' src="../../../assets/ultimos-lidos.png" alt="Ícone Ultimos lidos">
     <p>Últimos lidos</p>
   </div>
 </section>
-
-<!-- [routerLink]='["../tela-ranking'"]'
-[routerLink]='["../tela-ultimos-vistos"]' -->
-
-
 
 <section>
   <app-footer></app-footer>

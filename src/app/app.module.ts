@@ -13,7 +13,9 @@ import { TelaLocalizacaoComponent } from './modules/tela-localizacao/tela-locali
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from '../app/shared/shared.module';
 import { ReactiveFormsModule } from '@angular/forms';
-import { UltimosVistosComponent } from './modules/ultimos-vistos/ultimos-vistos.component';
+import { UltimosLidosComponent } from './modules/ultimos-vistos/ultimos-vistos.component';
+import { TelaRankingComponent } from './modules/tela-ranking/tela-ranking.component';
+import { TelaGincanaLeituraComponent } from './modules/tela-gincana-leitura/tela-gincana-leitura.component';
 
 
 
@@ -28,7 +30,9 @@ import { UltimosVistosComponent } from './modules/ultimos-vistos/ultimos-vistos.
     TelaFiltroTagsComponent,
     TelaGamificationComponent,
     TelaLocalizacaoComponent,
-    UltimosVistosComponent
+    UltimosLidosComponent,
+    TelaRankingComponent,
+    TelaGincanaLeituraComponent
   ],
   imports: [
     BrowserModule,

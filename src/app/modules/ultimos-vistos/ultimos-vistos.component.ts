@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ultimos-vistos.component.html',
   styleUrls: ['./ultimos-vistos.component.css']
 })
-export class UltimosVistosComponent implements OnInit {
+export class UltimosLidosComponent implements OnInit {
 
   constructor() { }
 

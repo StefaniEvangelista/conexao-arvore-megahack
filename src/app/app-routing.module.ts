@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TelaPrincipalComponent } from './modules/tela-principal/tela-principal.component';
 import { TelaClubLivroComponent } from './modules/tela-club-livro/tela-club-livro.component';
@@ -8,7 +8,9 @@ import { TelaPodcastComponent } from './modules/tela-podcast/tela-podcast.compon
 import { TelaLoginComponent } from './modules/tela-login/tela-login.component';
 import { TelaLocalizacaoComponent } from './modules/tela-localizacao/tela-localizacao.component';
 import { TelaInicialComponent } from './modules/tela-inicial/tela-inicial.component';
-import { UltimosVistosComponent } from './modules/ultimos-vistos/ultimos-vistos.component';
+import { UltimosLidosComponent } from './modules/ultimos-vistos/ultimos-vistos.component';
+import { TelaRankingComponent } from './modules/tela-ranking/tela-ranking.component';
+import { TelaGincanaLeituraComponent } from './modules/tela-gincana-leitura/tela-gincana-leitura.component';
 
 
 const routes: Routes = [
@@ -49,9 +51,17 @@ const routes: Routes = [
         component: TelaPodcastComponent,
     },
     {
-        path: 'tela-ultimos-vistos',
-        component: UltimosVistosComponent
+        path: 'tela-ultimos-lidos',
+        component: UltimosLidosComponent
     },
+    {
+        path:'tela-ranking',
+        component: TelaRankingComponent
+    },
+    {
+        path:'tela-gincana-leitura',
+        component: TelaGincanaLeituraComponent
+    }
 ];
 
 @NgModule({
