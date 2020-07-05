@@ -1,3 +1,12 @@
+.cards_container {
+  color: #AFAFEF;
+  font-weight: 700;
+}
+
+.cards_container p {
+  font-size: 24px;
+}
+
 @media (min-width: 300px) {
   .cards_container {
     display: flex;
@@ -10,14 +19,14 @@
   .card_pagina {
     width: 150px;
     height: 150px;
-    background-color: aqua;
+    background-color: #E0E0F1;
     border-radius: 10px;
-    box-shadow: 0 0 3px 0 #333;
     margin: 20px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   
   .card_pagina-icone {
@@ -28,6 +37,6 @@
 
 @media (min-width: 768px) {
   .cards_container {
-    min-width: 768px;
+    min-width: 100%;
   }
 }

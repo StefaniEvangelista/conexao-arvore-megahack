@@ -1,13 +1,22 @@
+.section_tela-principal {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media (min-width: 300px) {
     span {
-        font-weight: 700;
-        font-size: 17px; 
+        font-weight: 500;
+        font-size: 12px; 
         border: 1px solid #707070;
         border-radius: 5px;
         height: 14vw;
         display: flex;  
         justify-content: center;
         align-items: center;
+        margin: 0 15px;
+        padding: 10px;
     }
 
     .btn{

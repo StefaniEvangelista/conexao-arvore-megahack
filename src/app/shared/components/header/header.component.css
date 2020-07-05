@@ -1,14 +1,16 @@
+
+
 @media (min-width: 300px) {
     header {
         background-color: #45D1C1;
-        min-width: 100%;
+        /* min-width: 100%; */
         height: 111px;
     }
 
     img {
        margin-top: -95px;
        padding-left: 32px;
-       width: 368px;
+       width: 100%;
        height: 285px;
     }
     
