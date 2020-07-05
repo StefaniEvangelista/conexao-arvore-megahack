@@ -4,18 +4,7 @@
     flex-direction: column;
     justify-content: center;
   }
- 
 
-  p {
-      font-size: 25px;
-      font-weight: 500;
-      border: 1px solid #000000;
-      border-radius: 10px;
-      width: 90px;
-      height: 40px;
-      padding: 0px 10px;
-      margin: 0px 7px 7px 225px;
-  }
   
   .ultimos-vistos-input::placeholder {
     color:#783F04
@@ -26,30 +15,6 @@
     margin-bottom: -60px;
   }
 
-  .primeiro-livro{
-    margin: 15px auto 0px 30px;
-    width: 300px;
-    height: 102px;
-  }
-
-  .segundo-livro{
-    margin: 15px auto 0px 30px;
-    width: 300px;
-    height: 102px;
-  }
-
-  .terceiro-livro{
-    margin: 15px auto 0px 30px;
-    width: 300px;
-    height: 102px;
-  }
-
-  .icon{
-    width: 215px;
-    height: 350px;
-    margin-top: -63vw;
-  }
-
   .preFooter_container {
     display: flex;
     justify-content: space-around;
@@ -58,4 +23,116 @@
 
   .arrow_left {
     height: 90px;
+  }
+
+  @media (min-width: 320px) {
+    p {
+      font-size: 25px;
+      font-weight: 500;
+      border: 1px solid #000000;
+      border-radius: 10px;
+      width: 90px;
+      height: 40px;
+      padding: 0px 10px;
+      margin: 0px 7px 7px 225px;
+  }
+
+    .primeiro-livro{
+      margin: 15px auto 0px 30px;
+      width: 300px;
+      height: 102px;
+    }
+  
+    .segundo-livro{
+      margin: 15px auto 0px 30px;
+      width: 300px;
+      height: 102px;
+    }
+  
+    .terceiro-livro{
+      margin: 15px auto 0px 30px;
+      width: 300px;
+      height: 102px;
+    }
+
+  .icon{
+    width: 215px;
+    height: 350px;
+    margin-top: -63vw;
+  }
+  }
+
+  @media (min-width: 360px) {
+    p {
+      font-size: 25px;
+      font-weight: 500;
+      border: 1px solid #000000;
+      border-radius: 10px;
+      width: 90px;
+      height: 40px;
+      padding: 0px 10px;
+      margin: 0px 7px 7px 225px;
+  }
+  
+    .primeiro-livro{
+      margin: 15px auto 0px 45px;
+      width: 300px;
+      height: 102px;
+    }
+  
+    .segundo-livro{
+      margin: 15px auto 0px 45px;
+      width: 300px;
+      height: 102px;
+    }
+  
+    .terceiro-livro{
+      margin: 15px auto 0px 45px;
+      width: 300px;
+      height: 102px;
+    }
+
+  .icon{
+    width: 215px;
+    height: 350px;
+    margin-top: -63vw;
+  }
+  }
+
+
+  @media (min-width: 370px) {
+    p {
+      font-size: 25px;
+      font-weight: 500;
+      border: 1px solid #000000;
+      border-radius: 10px;
+      width: 90px;
+      height: 40px;
+      padding: 0px 10px;
+      margin: 0px 7px 7px 245px;
+  }
+
+    .primeiro-livro{
+      margin: 15px auto 0px 50px;
+      width: 300px;
+      height: 102px;
+    }
+  
+    .segundo-livro{
+      margin: 15px auto 0px 50px;
+      width: 300px;
+      height: 102px;
+    }
+  
+    .terceiro-livro{
+      margin: 15px auto 0px 50px;
+      width: 300px;
+      height: 102px;
+    }
+
+  .icon{
+    width: 215px;
+    height: 350px;
+    margin-top: -47vw;
+  }
   }
