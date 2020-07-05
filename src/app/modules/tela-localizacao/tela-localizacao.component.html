@@ -7,57 +7,60 @@
     <form [formGroup]="formulario">
         <div class="form-row">
             <div class="container">
+                <div>
                     <div>
-                        <div>
-                            <input type="text" class="form-control" formControlName="rua" placeholder="Rua/Avenida">
-                        </div>
+                        <input type="text" class="form-control" formControlName="rua" placeholder="Rua/Avenida">
                     </div>
+                </div>
 
-                    <div class="senha-edit">
-                        <div>
-                            <input type="text" class="form-control" formControlName="bairro" placeholder="Bairro">
-                        </div>
-                    </div>
-
-                    <div class="senha-edit">
-                        <select class="form-control" formControlName="estado">
-                            <option [value]="null">Selecione seu Estado</option>
-                            <option *ngFor="let item of listLocalidades" [value]="item.cod">{{ item.estado }}
-                            </option>
-                        </select>
-                    </div>
-
-
-                    <div class="senha-edit">
-                        <select class="form-control" formControlName="cidade" placeholder="Cidade">
-                            <option [value]="null">Selecione sua Cidade</option>
-                            <option>Guarulhos</option>
-                            <option>Jundiaí</option>
-                            <option>Bauru</option>
-                            <option>Araçatuba</option>
-                            <option>Suzano</option>
-                            <option>Araraquara</option>
-                            <option>São Bernardo do</option>
-                        </select>
-                    </div>
-
-
-
-                    <div class="senha-edit">
-                        <div>
-                            <input type="number" class="form-control" formControlName="cep" placeholder="CEP">
-                        </div>
-                    </div>
-
+                <div class="input-edit">
                     <div>
-                        <button [routerLink]='["../tela-login"]' [disabled]="disableButton()"
-                            class="btn btn-outline">Confirmar</button>
+                        <input type="text" class="form-control" formControlName="bairro" placeholder="Bairro">
                     </div>
+                </div>
+
+                <div class="input-edit">
+                    <select class="form-control" formControlName="estado">
+                        <option [value]="null">Selecione seu Estado</option>
+                        <option *ngFor="let item of listLocalidades" [value]="item.cod">{{ item.estado }}
+                        </option>
+                    </select>
+                </div>
+
+
+                <div class="input-edit">
+                    <select class="form-control" formControlName="cidade" placeholder="Cidade">
+                        <option [value]="null">Selecione sua Cidade</option>
+                        <option>Guarulhos</option>
+                        <option>Jundiaí</option>
+                        <option>Bauru</option>
+                        <option>Araçatuba</option>
+                        <option>Suzano</option>
+                        <option>Araraquara</option>
+                        <option>São Bernardo do</option>
+                    </select>
+                </div>
+
+
+
+                <div class="input-edit">
+                    <div>
+                        <input type="number" class="form-control" formControlName="cep" placeholder="CEP">
+                    </div>
+                </div>
+
+                <div>
+                    <button [routerLink]='["../tela-login"]' [disabled]="disableButton()"
+                        class="btn btn-outline">Confirmar</button>
+                </div>
             </div>
         </div>
     </form>
 </section>
 
 <section>
-    <app-footer></app-footer>
+    <div class="footer">
+        <app-footer></app-footer>
+        <img src="../../../assets/svg/Creativity.png" alt="">
+    </div>
 </section>

@@ -79,7 +79,7 @@
   }
   
   
-  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  .btn-outline:hover, .btn-outline:focus {
    color: #fff;
    border-color: #fff;
    background-color: #45D1C1;
