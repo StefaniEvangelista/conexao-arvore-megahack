@@ -45,12 +45,17 @@
   }
 
   .icon{
-    width: 370px;
-    height: 371px;
+    width: 215px;
+    height: 350px;
     margin-top: -63vw;
   }
 
-  .seta{
-    width: 90px;
+  .preFooter_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .arrow_left {
     height: 90px;
   }
