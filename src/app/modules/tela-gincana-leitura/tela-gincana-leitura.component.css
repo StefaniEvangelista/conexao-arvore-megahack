@@ -1,0 +1,51 @@
+.titulo_container {
+  color: #a87dd1ff;
+  font-weight: 700;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pontuacao_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 15px;
+}
+
+.pontuacao_container_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  background-color: #E0E0F1;
+  color: #a87dd1ff;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 1px solid #707070;
+  padding: 0 10px;
+}
+
+.pontuacao_container_card p {
+  margin: 0px;
+}
+
+.pontuacao_container_card img {
+  height: 60px;
+}
+
+.pontuacao_container_card.pt {
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  width: 40px;
+}
+
+.container_img_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-bottom: 40px;
+}

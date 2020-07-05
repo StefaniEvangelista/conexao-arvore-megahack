@@ -18,6 +18,9 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .club-livro_categoria {
@@ -49,20 +52,12 @@
   }
 
   .card_pagina-icone {
-    margin-left: 250px;
     height: 65px;
-    margin-top: -20px;
   } 
 
   @media (max-width:320px) {
     .container_club-livro {
       justify-content: center;
-    }
-
-    .card_pagina-icone {
-    margin-left: 190px;
-    height: 65px;
-    margin-top: -20px;
     }
   }
   

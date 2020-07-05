@@ -2,9 +2,53 @@
     <app-segundo-topo [routerLink]='["../tela-inicial"]'></app-segundo-topo>
 </section>
 
-<section>
-
+<section class="section_busca">
+    <app-campo-busca></app-campo-busca>
 </section>
+
+
+<div class="titulo_container">
+    <h2>Gincana da leitura</h2>
+    <img src="../../../assets/icons8-medalha-100.png" alt="">
+</div>
+
+<div class="pontuacao_container">
+    <div class="pontuacao_container_card">
+        <p>Podcast</p>
+        <img src="../../../assets/icons8-fone-de-ouvido-100.png" alt="">
+    </div>
+    <div class="pontuacao_container_card pt">
+        3
+    </div>
+</div>
+
+<div class="pontuacao_container">
+    <div class="pontuacao_container_card">
+        <p>Lidos</p>
+        <img src="../../../assets/estante.png" alt="">
+    </div>
+    <div class="pontuacao_container_card pt">
+        5
+    </div>
+</div>
+
+<div class="pontuacao_container">
+    <div class="pontuacao_container_card">
+        <p>Curadoria</p>
+        <img src="../../../assets/boletim.png" alt="">
+    </div>
+    <div class="pontuacao_container_card pt">
+        2
+    </div>
+</div>
+
+<!-- <img src="../../../assets/img/podio.png" alt=""> -->
+
+<div class="container_img_footer">
+    <img src="../../../assets/book-amigo.png" alt="">
+    <img [routerLink]='["../tela-inicial"]' class="arrow_left"
+src="../../../assets/icons8-seta-longa-a-esquerda-100.png" alt="Seta">
+</div>
 
 <section>
     <app-footer></app-footer>
