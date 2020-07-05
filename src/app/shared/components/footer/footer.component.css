@@ -1,3 +1,10 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    margin-top: 40px;
+}
+
 @media (min-width: 300px) {
     footer {
         background-color: #45D1C1;
