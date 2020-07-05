@@ -1,0 +1,56 @@
+.div-ultimos-vistos {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+
+  p {
+      font-size: 25px;
+      font-weight: 500;
+      border: 1px solid #000000;
+      border-radius: 10px;
+      width: 90px;
+      height: 40px;
+      padding: 0px 10px;
+      margin: 0px 7px 7px 245px;
+  }
+  
+  .ultimos-vistos-input::placeholder {
+    color:#783F04
+  }
+
+  .ultimos-vistos {
+    padding: 15px;
+    margin-bottom: -60px;
+  }
+
+  .primeiro-livro{
+    margin: 20px;
+    width: 326px;
+    height: 102px;
+  }
+
+  .segundo-livro{
+    margin: 20px;
+    width: 326px;
+    height: 102px;
+  }
+
+  .terceiro-livro{
+    margin: 20px;
+    width: 326px;
+    height: 102px;
+  }
+
+  .icon{
+    width: 370px;
+    height: 371px;
+    margin-top: -63vw;
+  }
+
+  .seta{
+    width: 90px;
+    height: 90px;
+  }

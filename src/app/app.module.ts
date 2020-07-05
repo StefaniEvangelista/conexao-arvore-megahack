@@ -13,6 +13,7 @@ import { TelaLocalizacaoComponent } from './modules/tela-localizacao/tela-locali
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from '../app/shared/shared.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { UltimosVistosComponent } from './modules/ultimos-vistos/ultimos-vistos.component';
 
 
 
@@ -26,7 +27,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     TelaInicialComponent,
     TelaFiltroTagsComponent,
     TelaGamificationComponent,
-    TelaLocalizacaoComponent
+    TelaLocalizacaoComponent,
+    UltimosVistosComponent
   ],
   imports: [
     BrowserModule,

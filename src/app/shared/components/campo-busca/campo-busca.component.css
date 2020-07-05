@@ -1,0 +1,20 @@
+.ultimos-vistos-busca {
+    position: relative;
+  }
+  
+  .ultimos-vistos-busca img {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+  
+  .ultimos-vistos-busca-input {
+    border: 1px solid #707070;
+    padding: 10px 10px 10px 60px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+    color:#783F04;
+    font-weight: 700;
+  }
