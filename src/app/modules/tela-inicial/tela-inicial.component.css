@@ -70,5 +70,6 @@
 @media (min-width: 768px) {
   .cards_container {
     min-width: 100%;
+    justify-content: center;
   }
 }
