@@ -90,22 +90,22 @@
 }
 
 .podcast.podcast1 {
-  background-image: url('../../../assets/podcast1.png');
+  background-image: url('../../../assets/img/podcast1.png');
 }
 .podcast.podcast2 {
-  background-image: url('../../../assets/podcast2.png');
+  background-image: url('../../../assets/img/podcast2.png');
 }
 .podcast.podcast3 {
-  background-image: url('../../../assets/podcast3.png');
+  background-image: url('../../../assets/img/podcast3.png');
 }
 .podcast.podcast4 {
-  background-image: url('../../../assets/podcast4.png');
+  background-image: url('../../../assets/img/podcast4.png');
 }
 .podcast.podcast5 {
-  background-image: url('../../../assets/podcast5.png');
+  background-image: url('../../../assets/img/podcast5.png');
 }
 .podcast.podcast6 {
-  background-image: url('../../../assets/podcast6.png');
+  background-image: url('../../../assets/img/podcast6.png');
 }
 
 @media (max-width:320px) {
