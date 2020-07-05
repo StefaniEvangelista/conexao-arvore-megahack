@@ -8,6 +8,7 @@ import { TelaPodcastComponent } from './modules/tela-podcast/tela-podcast.compon
 import { TelaLoginComponent } from './modules/tela-login/tela-login.component';
 import { TelaLocalizacaoComponent } from './modules/tela-localizacao/tela-localizacao.component';
 import { TelaInicialComponent } from './modules/tela-inicial/tela-inicial.component';
+import { UltimosVistosComponent } from './modules/ultimos-vistos/ultimos-vistos.component';
 
 
 const routes: Routes = [
@@ -46,6 +47,10 @@ const routes: Routes = [
     {
         path: 'tela-podcast',
         component: TelaPodcastComponent,
+    },
+    {
+        path: 'tela-ultimos-vistos',
+        component: UltimosVistosComponent
     },
 ];
 
