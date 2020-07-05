@@ -1,10 +1,3 @@
-.section_tela-login {
-    min-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
      
   .btn-outline {
     color: #45D1C1;
@@ -28,6 +21,16 @@
      color: #707070
  }
 
+ .header {
+    background-color: #45D1C1;
+    min-width: 100%;
+}
+
+    .footer{
+        background-color: #45D1C1;
+        min-width: 100%;
+    }
+
 .form-control {
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
@@ -42,6 +45,32 @@
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+img {
+    margin-top: -95px;
+    padding-left: 32px;
+    min-height: 100%;
+     max-width: 100%;
+ }
+
+ .logo {
+     display: flex;  
+     justify-content: center;
+     align-items: center;
+     min-height: 100%;
+     max-width: 100%;
+     margin-top: -215px;
+ }
+
+ .logo1{
+     display: flex;  
+     justify-content: center;
+     align-items: center;
+     min-height: 100%;
+     max-width: 100%;
+     margin-left: 70px;
+     margin-top: -70px;
+ }
+
 @media (min-width: 320px) {
     .container {
         width: 100%;
@@ -51,37 +80,32 @@
         margin-left: auto;
     }
 
-    .header {
-        background-color: #45D1C1;
-        width: 375px;
-    }
-
     img {
-       margin-top: -95px;
-       height: 285px;
-       max-width: 368px;
+    margin-top: -70px;
+    padding-left: 32px;
+    min-height: 100%;
+    max-width: 100%;
     }
 
     .logo {
         display: flex;  
         justify-content: center;
         align-items: center;
-        height: 200px;
-        max-width: 265px;
-        margin-left: 50px;
-        margin-top: -173px;
+        min-height: 100%;
+        max-width: 100%;
+        margin-top: -200px;
+        margin-left: -20px;
     }
-
+   
     .logo1{
         display: flex;  
         justify-content: center;
         align-items: center;
-        height: 130px;
-        max-width: 150px;
-        margin-top: -65px;
-        margin-left: 130px;
+        min-height: 100%;
+        max-width: 100%;
+        margin-left: 50px;
+        margin-top: -70px;
     }
-
     
     .form-row {
     margin-left: 30px!important;
@@ -105,44 +129,12 @@
 
 
 @media (min-width: 360px) {
-    .header {
-        background-color: #45D1C1;
-        width: 375px;
-    }
-
-    img {
-       margin-top: -95px;
-       padding-left: 20px;
-       width: 368px;
-       height: 285px;
-    }
-
-
     .form-row {
         margin-left: 35px!important;
         margin: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .logo {
-        display: flex;  
-        justify-content: center;
-        align-items: center;
-        width: 292px;
-        height: 234px;
-        margin-left: 30px;
-        margin-top: -255px;
-    }
-
-    .logo1{
-        display: flex;  
-        justify-content: center;
-        align-items: center;
-        width: 230px;
-        height: 190px;
-        margin-left: 100px;
     }
 
     .senha-edit {
@@ -159,39 +151,6 @@
 
 
 @media (min-width: 375px) {
-    .header {
-        background-color: #45D1C1;
-        width: 400px;
-    }
-
-    img {
-       margin-top: -95px;
-       padding-left: 32px;
-       width: 368px;
-       height: 285px;
-    }
-
-    .logo {
-        display: flex;  
-        justify-content: center;
-        align-items: center;
-        width: 292px;
-        height: 234px;
-        margin-left: 20px;
-        margin-top: -235px;
-        max-width: 292px;
-        max-height: 234px;
-    }
-
-    .logo1{
-        display: flex;  
-        justify-content: center;
-        align-items: center;
-        width: 230px;
-        height: 190px;
-        margin-left: 107px;
-    }
-
     .senha-edit {
         margin-top: 20px;
     }
