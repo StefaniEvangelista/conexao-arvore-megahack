@@ -10,16 +10,16 @@
 
 .tela_inicial-busca img {
   position: absolute;
-  top: 5px;
+  top: 23px;
   left: 20px;
 }
 
 .tela_inicial-busca-input {
   border: 1px solid #707070;
-  padding: 10px 10px 10px 60px;
+  padding: 10px 10px 10px 50px;
   border-radius: 10px;
   width: 100%;
-  margin: 20px auto;
+  margin: 20px 15px;
   display: block;
   color:#783F04
 }
