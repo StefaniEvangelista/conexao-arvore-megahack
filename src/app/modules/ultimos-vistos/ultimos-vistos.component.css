@@ -14,7 +14,7 @@
       width: 90px;
       height: 40px;
       padding: 0px 10px;
-      margin: 0px 7px 7px 245px;
+      margin: 0px 7px 7px 225px;
   }
   
   .ultimos-vistos-input::placeholder {
@@ -27,20 +27,20 @@
   }
 
   .primeiro-livro{
-    margin: 20px;
-    width: 326px;
+    margin: 15px auto 0px 30px;
+    width: 300px;
     height: 102px;
   }
 
   .segundo-livro{
-    margin: 20px;
-    width: 326px;
+    margin: 15px auto 0px 30px;
+    width: 300px;
     height: 102px;
   }
 
   .terceiro-livro{
-    margin: 20px;
-    width: 326px;
+    margin: 15px auto 0px 30px;
+    width: 300px;
     height: 102px;
   }
 
@@ -53,7 +53,7 @@
   .preFooter_container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;  
   }
 
   .arrow_left {
