@@ -8,6 +8,10 @@
   font-size: 24px;
 }
 
+.section_busca {
+  margin: 0 15px;
+}
+
 @media (min-width: 300px) {
   .cards_container {
     display: flex;

@@ -1,9 +1,14 @@
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+}
+
 @media (min-width: 320px) {
     div {
         background-color: #45D1C1;
-        height: 131px;
-        width: 116vw;
-
+        height: 131px;   
     }
 
     img {
@@ -25,8 +30,6 @@
     div {
         background-color: #45D1C1;
         height: 131px;
-        width: 103vw;
-
     }
 
     img {
@@ -48,8 +51,6 @@
     div {
         background-color: #45D1C1;
         height: 131px;
-        width: 103vw;
-
     }
 
     img {

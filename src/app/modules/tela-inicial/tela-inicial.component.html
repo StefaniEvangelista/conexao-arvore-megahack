@@ -1,8 +1,12 @@
-<section>
+<!-- <section>
   <app-header></app-header>
-</section>
+</section> -->
 
 <section>
+  <app-segundo-topo [routerLink]='["../tela-inicial"]'></app-segundo-topo>
+</section>
+
+<section class="section_busca">
   <app-campo-busca></app-campo-busca>
 </section>
 
@@ -13,16 +17,24 @@
     <p>Clube da Árvore</p>
   </div>
   <div class="card_pagina">
-    <img class="card_pagina-icone" src="../../../assets/icons8-gancho-de-porta-100.png" alt="Icone 1">
-    <p>Tags</p>
+    <img class="card_pagina-icone" src="../../../assets/icons8-medalha-100.png" alt="Icone Gincana da leitura">
+    <p>Gincana da Leitura</p>
   </div>
   <div class="card_pagina">
     <img class="card_pagina-icone"  [routerLink]='["../tela-podcast"]' src="../../../assets/icons8-fone-de-ouvido-100.png" alt="Icone 1">
     <p>Podcast</p>
   </div>
   <div class="card_pagina">
-    <img class="card_pagina-icone" src="../../../assets/icons8-medalha-100.png" alt="Icone 1">
-    <p>Gincana da Leitura</p>
+    <img class="card_pagina-icone" src="../../../assets/ranking.png" alt="Ícone Ranking">
+    <p>Ranking</p>
+  </div>
+  <div class="card_pagina">
+    <img class="card_pagina-icone" src="../../../assets/icons8-gancho-de-porta-100.png" alt="Icone 1">
+    <p>Tags</p>
+  </div>
+  <div class="card_pagina">
+    <img class="card_pagina-icone" src="../../../assets/ultimos-lidos.png" alt="Ícone Ultimos lidos">
+    <p>Últimos lidos</p>
   </div>
 </section>
 
