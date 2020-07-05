@@ -1,0 +1,76 @@
+
+.titulo_container {
+    color: #a87dd1ff;
+    font-weight: 700;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo_container img {
+    min-height: 100%;
+    margin-left: -4px;
+  }
+
+  .club-livro {  
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  
+  .club-livro_categoria {
+    border: 1px solid #707070;
+    background-color: #E0E0F1;
+    font-size: 25px;
+    color: #A87DD1;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  .container_club-livros {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .preFooter_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+  }
+
+  .arrow_left {
+    height: 90px;
+  }
+
+  .card_pagina-icone {
+    margin-left: 250px;
+    height: 65px;
+    margin-top: -20px;
+  } 
+
+  @media (max-width:320px) {
+    .container_club-livro {
+      justify-content: center;
+    }
+
+    .card_pagina-icone {
+    margin-left: 190px;
+    height: 65px;
+    margin-top: -20px;
+    }
+  }
+  
+  @media (min-width:768px) {
+    .botoes_amigos {
+      justify-content: center;
+    }
+    .container_club-livro {
+      justify-content: center;
+    }
+  }
