@@ -1,6 +1,31 @@
 .cards_container {
   color: #AFAFEF;
   font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.tela_inicial-busca {
+  position: relative;
+}
+
+.tela_inicial-busca img {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.tela_inicial-busca-input {
+  border: 1px solid #707070;
+  padding: 10px 10px 10px 60px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+  color:#783F04
+}
+
+.tela_inicial-busca-input::placeholder {
+  color:#783F04
 }
 
 .cards_container p {
@@ -13,26 +38,33 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 375px;
+    min-width: 320px;
   }
   
   .card_pagina {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: auto;
     background-color: #E0E0F1;
     border-radius: 10px;
     margin: 20px 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
 
   }
   
   .card_pagina-icone {
-    width: 50px;
-    height: 50px;
+    height: 100px;
   }  
+}
+
+@media (min-width: 375px) {
+  .card_pagina {
+    width: 150px;
+    height: 220px;
+  }
 }
 
 @media (min-width: 768px) {
