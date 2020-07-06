@@ -3,9 +3,50 @@
 </section>
 
 <section>
-
+    <app-campo-busca></app-campo-busca>
 </section>
 
-<section>
+<div class="titulo_container">
+    <h2>Ranking</h2>
+    <img src="../../../assets/img/ranking.png" alt="">
+</div>
+
+<section class="section_info">
+    <div class="img_aluno">
+        <img src="../../../assets/img/badge.png" alt="Badge">
+    </div>
+    <div class="info_aluno">
+        <div class="info_aluno_nome">
+            <span>Pedro Henrique</span>
+        </div>
+        <div class="info_aluno_sala">
+            <span>8ª</span>
+            <img src="../../../assets/img/icons8-troféu-80.png" alt="Troféu">
+            <img src="../../../assets/img/icons8-troféu-80.png" alt="Troféu">
+        </div>
+    </div>
+</section>
+
+<section class="section_data">
+    <div class="section_data_div">
+        <span>Livros lidos</span>
+        <span>7</span>
+    </div>
+    <div class="section_data_div">
+        <span>Podcast</span>
+        <span>1</span>
+    </div>
+    <div class="section_data_div">
+        <span>Ranking</span>
+        <span>5</span>
+    </div>
+</section>
+
+<div class="preFooter_container">
+    <img [routerLink]='["../tela-inicial"]' class="arrow_left" src="../../../assets/img/icons8-seta-longa-a-esquerda-100.png" alt="Seta">
+    <img src="../../../assets/img/podio.png" alt="Ranking Podio">
+  </div>
+
+<section class="section_footer_ranking">
     <app-footer></app-footer>
 </section>

@@ -1,0 +1,106 @@
+.titulo_container {
+  color: #a87dd1ff;
+  font-weight: 700;
+  margin: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titulo_container img {
+  min-height: 100%;
+  margin-left: -4px;
+}
+
+.container_tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container_tags span {
+  display: block;
+  padding: 7px;
+  border-radius: 10px;
+  color: #000000;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.tag_aventura {
+  background-color: #FFD700;
+}
+.tag_drama {
+  background-color: #AFAFEF;
+}
+.tag_biografia {
+  background-color: #783F04;
+}
+.tag_brasileiro {
+  background-color: #45D1C1;
+}
+.tag_terror {
+  background-color: #4A8AF4;
+}
+.tag_misterio {
+  background-color: #EA1A0F;
+}
+.tag_misterio {
+  background-color: #EA1A0F;
+}
+.tag_fantasia {
+  background-color: #4849B6;
+}
+.tag_romance {
+  background-color: #2D6D6C;
+}
+.tag_poesia {
+  background-color: #FF69B4;
+}
+.tag_apocalipse {
+  background-color: #FFD700;
+}
+.tag_conto {
+  background-color: #EA1A0F;
+}
+.tag_folhetim {
+  background-color: #AFAFEF;
+} 
+.tag_fabula {
+  background-color: #FA8072;
+} 
+.tag_princesa {
+  background-color: #1E90FF;
+} 
+.tag_cronica {
+  background-color: #F0E68C;
+} 
+.tag_zumbis {
+  background-color: #7FFFD4;
+} 
+.tag_guerra {
+  background-color: #7FFF00;
+} 
+.tag_literatura {
+  background-color: #FF8C00;
+}
+.tag_suspense {
+  background-color: #FFD700;
+}
+.tag_musica {
+  background-color: #AFAFEF;
+}
+.tag_steampunk {
+  background-color: #EA1A0F;
+}
+.tag_cientifico {
+  background-color: #9ACD32;
+}
+.tag_epico {
+  background-color: #4A8AF4;
+}
+
+.footer_section {
+  margin-top: 40px;
+}

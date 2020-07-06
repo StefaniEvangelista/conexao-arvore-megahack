@@ -1,0 +1,93 @@
+.titulo_container {
+  color: #a87dd1ff;
+  font-weight: 700;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo_container img {
+  min-height: 100%;
+  margin-left: -4px;
+}
+
+.section_info, .section_data_div {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.section_info {
+  justify-content: space-between;
+}
+
+.section_data_div {
+  justify-content: flex-start;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.section_data {
+  margin: 40px 15px;
+}
+
+.img_aluno {
+  background-image: url('../../../assets/img/pessoa.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #A87DD1;
+  width: 146px;
+  height: 149px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.img_aluno img {
+  position: absolute;
+  bottom: -25px;
+  right: -10px;
+}
+
+.info_aluno_nome {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.info_aluno span, .section_data_div span {
+  display: block;
+  border: 1px solid #707070;
+  color: #000;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.info_aluno_sala {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.section_data_div span {
+  margin: 0 10px 0 0;
+}
+
+.preFooter_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section_footer_ranking {
+  margin-top: 40px;
+}
+
+@media (max-width: 320px) {
+  .info_aluno span, .section_data_div span {
+    font-size: 16px;
+  }
+}
+
+
